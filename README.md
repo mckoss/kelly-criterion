@@ -9,7 +9,7 @@ Excellent information on the Kelly Criterion can be found at:
 - [Fortune's Formula](https://archive.org/details/fortunesformulau00poun/page/n3/mode/2up) - a book by William Poundstone.
 
 *To read the formulas as they are meant to appear, please visit the
-[Kelly-Kiterion](http://mckoss.com/kelly-criterion/) hosted version
+[Kelly-Criterion](http://mckoss.com/kelly-criterion/) hosted version
 of this repository.*
 
 # What is it?
