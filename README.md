@@ -49,8 +49,10 @@ much you'd lose.
 
 $$\begin{aligned}
 E &= p \cdot (b \cdot d) - (1 - p) \cdot d \\
+  \\
   &= \frac{1}{2} \cdot 2 \cdot d - \frac{1}{2} \cdot d \\
-  &= \frac{1}{2} \cdot d
+  \\
+  &= \frac{d}{2}
 \end{aligned}$$
 
 </div>
@@ -69,6 +71,26 @@ Before going on, let's define the variables in the Kelly Criterion:
   expressed as a multiple of your bet size); so betting $1 will return $b
   dollars to you.
 
+What does the Kelly formula recommend you do in this case?
+
+<div style="text-align: center; font-size: 2rem;">
+
+
+$$\begin{aligned}
+f &= p - \frac{1 - p}{b} \\
+  \\
+  &= 0.5 - \frac{0.5}{2} \\
+  &= 0.25
+\end{aligned}$$
+
+</div>
+
+So, the optimal first bet would be for $25 of our $100 stake.
+
+*Note that the
+Kelly formula tells us that under **no circumstances** should we risk more
+than the proportion of our stake greater than the probability of
+**winning** a bet - no matter how high the payout.*
 
 <script defer>
 MathJax = {
